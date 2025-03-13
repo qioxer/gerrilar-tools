@@ -1,0 +1,31 @@
+# Gerrilar Tools MultiTools Suite
+
+**Gerrilar Tools MultiTools Suite** is a comprehensive, Python-based toolkit designed for developers and power users. This suite bundles multiple utilities into a single, easy-to-use interface. It features functionalities such as converting Python scripts into standalone executables, bypassing Linkvertise URLs, checking and securing your public IP address, launching a free VPN, running Wireshark, generating a Discord bot script, simulating an AI assistant, and more.
+
+## Features
+
+- **EXE Files Python**: Convert your `.py` files into `.exe` files using PyInstaller. The tool automatically includes additional DLLs if available.
+- **Linkvertise Bypass**: Bypass Linkvertise URLs to extract target URLs reliably.
+- **IP Tools**: Check your public IP, review its exposure, and send it to a specified webhook.
+- **Free VPN Launcher**: Opens a free VPN website (ProtonVPN) in your default browser.
+- **Wireshark Launcher**: Attempts to launch Wireshark for network analysis.
+- **Discord Bot Script Generator**: Generates a basic Discord bot script. Customize your bot token via the configuration file.
+- **AI Assistant Simulation**: A simulated interactive assistant that echoes your inputs.
+- **Environment Initialization**: Download and create important files and directories (logs, README, credentials, DLL files, subfolders) within a folder named `gerrilar tools` on your Desktop.
+- **Extension Module**: An additional module that can list the folder’s contents, simulate dynamic DLL loading, and launch extended versions of tools like Wireshark.
+
+## Prerequisites
+
+Before running this suite, make sure you have:
+
+- **Python 3.6 or later**
+- **PyInstaller** (install with `pip install pyinstaller`)
+- Required Python packages (install with `pip install pyfiglet colorama requests`)
+- PowerShell (on Windows) for executing the BAT file downloads
+
+## Setup Instructions
+
+1. **Clone or Download the Repository**  
+   Clone this repository using:
+   ```bash
+   git clone https://github.com/yourusername/gerrilar-tools.git
